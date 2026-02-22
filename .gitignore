@@ -39,3 +39,20 @@
 
 # debug information files
 *.dwo
+
+# IDE 캐시 및 데이터베이스 (수백 MB ~ 수 GB 용량 차지)
+.vs/
+*.ipch
+*.sdf
+*.opendb
+*.VC.db
+
+# 빌드 출력 디렉토리 (대용량 컴파일 결과물 누적)
+x64/
+x86/
+Debug/
+Release/
+
+# 운영체제 임시 파일
+.DS_Store
+Thumbs.db
